@@ -5,4 +5,8 @@
           - name: i want install web
             apt:
                   name: apache2
-                  state: present
+                  state: present     
+          - name: i want install web
+            service:
+                  name: apache2
+                  state: stopped        
