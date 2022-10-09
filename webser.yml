@@ -4,6 +4,5 @@
   tasks: 
          - name: i want install web
            apt:
-                name: install tree 
+                name: install apache2 
                 state: present
-                
